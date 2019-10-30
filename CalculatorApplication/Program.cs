@@ -35,7 +35,7 @@ namespace CalculatorApplication
             
                 if (operand=="+")
                     {
-                     answer=+num1++num2;
+                     answer=num1+num2;
                      Console.Write(answer);
                     }
                 if (operand=="-")
